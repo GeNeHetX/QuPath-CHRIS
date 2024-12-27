@@ -64,7 +64,7 @@ for (int i = 0; i < micordisections.size(); i++) {
             String tile_number = "(" + counter + "/" + tiling_factor + "): "
             
             // file name
-            def file_name = img_name + "_" + micordisection_name + "microdissection_mask_" + counter + "_of_" + tiling_factor + "." + format
+            def file_name = img_name + "_microdissection_" + micordisection_name + "_mask_" + counter + "_of_" + tiling_factor + "." + format
             
             // Check if the file already exist
             if (new File(outputDir, file_name).exists()) {
